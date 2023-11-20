@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="100" height="100" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="floor_tiles" tilewidth="64" tileheight="32">
+  <image source="floor_tiles.png" trans="000000" width="320" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="block_tiles" tilewidth="64" tileheight="32">
+  <image source="block_tiles.png" trans="000000" width="320" height="96"/>
+ </tileset>
+ <tileset firstgid="21" name="bed0000" tilewidth="211" tileheight="211">
+  <image source="Household/Beds/_02/bed0000.png" trans="000000" width="211" height="211"/>
+ </tileset>
+ <tileset firstgid="22" name="bs0000" tilewidth="177" tileheight="177">
+  <image source="Household/Bookshelf/bs0000.png" trans="000000" width="177" height="177"/>
+ </tileset>
+ <tileset firstgid="23" name="shelf0002" tilewidth="70" tileheight="99">
+  <image source="Household/Shelf/_02/shelf0002.png" trans="000000" width="70" height="99"/>
+ </tileset>
+ <tileset firstgid="24" name="sprite00002" tilewidth="47" tileheight="47">
+  <image source="Household/Placeable/_01/sprite00002.png" trans="000000" width="47" height="47"/>
+ </tileset>
+ <tileset firstgid="25" name="sprite00004" tilewidth="48" tileheight="48">
+  <image source="Household/Placeable/_02/sprite00004.png" trans="000000" width="48" height="48"/>
+ </tileset>
+ <tileset firstgid="26" name="sprite00006" tilewidth="36" tileheight="36">
+  <image source="Household/Placeable/_03/sprite00006.png" trans="000000" width="36" height="36"/>
+ </tileset>
+ <tileset firstgid="27" name="sprite00000" tilewidth="36" tileheight="36">
+  <image source="Household/Placeable/_03/sprite00000.png" trans="000000" width="36" height="36"/>
+ </tileset>
+ <tileset firstgid="28" name="grass_and_water" tilewidth="64" tileheight="64">
+  <tileoffset x="0" y="16"/>
+  <image source="sprites/grass_and_water.png" width="256" height="384"/>
+ </tileset>
+ <tileset firstgid="52" name="orange_on_white_background_1347224234" tilewidth="424" tileheight="480">
+  <tileoffset x="0" y="16"/>
+  <image source="sprites/tomake/orange_on_white_background_1347224234.png" width="424" height="480"/>
+ </tileset>
+ <tileset firstgid="53" name="empty-syringe-isolated-white-background-clipping-path-34335807" tilewidth="963" tileheight="536">
+  <tileoffset x="0" y="16"/>
+  <image source="sprites/tomake/empty-syringe-isolated-white-background-clipping-path-34335807.png" width="963" height="536"/>
+ </tileset>
+ <objectgroup color="#430000" name="floors_blockers" width="100" height="100">
+  <object x="192" y="800" width="288" height="32"/>
+  <object x="544" y="800" width="288" height="32"/>
+  <object x="800" y="544" width="32" height="256"/>
+  <object x="800" y="192" width="32" height="288"/>
+  <object x="224" y="192" width="576" height="32"/>
+  <object x="192" y="192" width="32" height="608"/>
+  <object x="672" y="96" width="32" height="32"/>
+  <object x="96" y="672" width="32" height="32"/>
+  <object x="896" y="544" width="96" height="64"/>
+  <object x="544" y="896" width="64" height="96"/>
+  <object x="256" y="864" width="288" height="32"/>
+  <object x="608" y="864" width="288" height="32"/>
+  <object x="864" y="256" width="32" height="288"/>
+  <object x="864" y="608" width="32" height="256"/>
+  <object x="1248" y="352" width="32" height="160"/>
+  <object x="768" y="1440" width="128" height="32"/>
+  <object x="864" y="1440" width="32" height="160"/>
+  <object x="768" y="1536" width="96" height="32"/>
+  <object x="768" y="1472" width="32" height="64"/>
+  <object x="832" y="1536" width="32" height="32"/>
+  <object x="1216" y="320" width="32" height="32"/>
+  <object x="1216" y="448" width="32" height="32"/>
+  <object x="1952" y="1696" width="96" height="32"/>
+  <object x="2048" y="1664" width="32" height="128"/>
+  <object x="2080" y="1696" width="672" height="64"/>
+  <object x="2336" y="1600" width="32" height="96"/>
+  <object x="2336" y="1792" width="32" height="576"/>
+  <object x="2368" y="2336" width="672" height="32"/>
+  <object x="3008" y="1120" width="32" height="1216"/>
+  <object x="2336" y="1120" width="672" height="32"/>
+  <object x="2336" y="1152" width="32" height="384"/>
+ </objectgroup>
+ <layer name="floor" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="items1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzkERAAAIA6CVsn81byn0AQlIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACouQ4AAAAAAAAAAAAAAADwwgIMbQA2
+  </data>
+ </layer>
+ <layer name="walls" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2uFqgzAUhmHZr7F2ttBdyu7/2oagNAtJPZqT5Gt4HwgdTLTknU3VTRPUzI4D5Tx70KTcHLx6tKBJmXguvZrQ5ZzcXPL51Udq/h4OgybnpP6mHxX2m/OzjpvDMUfQs0fcgCb9zw+a/Ne7x4ImTwo9FmGDL4fjvyuVHoutCT38e8T7tlqa0KNOj2l6XovApubnFY6rvX6ELg77HV2L9XyxtbivA2m1e4Trx32ix55WPTy/I4xuDl7poSFsQg8NnB9aUmtJ7r6HZVt6lPNuQo9y4VzmRrit5ZktPcpYz5FX24a/o0cb23W35X8cUNdlHVxv6xjl/se10miNHnpNRlCzB02Oq92DJse06EETu1Y9aGLTYu7oYUcPLfTQQg8t9NBCDy300EMPPfTQcI1+pkdf8VzRo6/UOTFqj8/eb8Co9j0/lR7fvd/AATWbqPR4N6zn/cXzRI++UnNFj35aPL+jh12LZ6r0sPO8d/W7cwzs4/6uFnpooYcWemihhxZ6aKGHFnpooYcWemihhxZ6aHnV48P5GLDh/NBDDz300JNbTzwGzqEHAAAAAAAAAAAAAAAAAAAAPP0Bxdsr/g==
+  </data>
+ </layer>
+ <objectgroup color="#00ffff" name="blocking_items" width="100" height="100">
+  <object x="224" y="288" width="128" height="64"/>
+  <object x="224" y="416" width="32" height="64"/>
+  <object x="608" y="224" width="32" height="32"/>
+  <object x="2720" y="1536" width="160" height="160"/>
+ </objectgroup>
+ <objectgroup color="#00ff00" name="interacting_items" width="100" height="100">
+  <object name="books 2" type="sign" x="337" y="228" width="43" height="21">
+   <properties>
+    <property name="header" value="Dear Twilight Sparkle,"/>
+    <property name="p1" value="The message you are about to read contains confidential information. I know you may be new to the program, but I shouldn't have to tell you what the consequences to letting out such sequences are. I will simply say they are dire."/>
+    <property name="p2" value="Please make sure to destroy this book once read. I know you might hate the prospect, but it must be done."/>
+    <property name="p3" value="For you see..."/>
+    <property name="p4" value="This book is actually completely useless."/>
+   </properties>
+  </object>
+  <object name="The book of Cthulhu" type="sign" x="248" y="232" width="30" height="26">
+   <properties>
+    <property name="header" value="The book of Cthulhu"/>
+    <property name="p1" value="Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn"/>
+    <property name="p2" value="Suspendisse potenti. Praesent vitae urna eget sapien cursus sollicitudin non ac purus. Aliquam placerat leo ut metus varius tincidunt. Sed placerat erat id risus commodo, et vulputate sapien ultricies. Duis in risus id orci vestibulum blandit. In hendrerit posuere ipsum, vitae viverra elit dapibus id. Proin luctus massa ac suscipit sodales. Proin ipsum mauris, ullamcorper ac pharetra ut, molestie et sapien. Integer sit amet purus eget libero tincidunt vestibulum ut id nisi. "/>
+    <property name="p3" value="Aliquam erat volutpat. Quisque vel scelerisque justo, ut elementum odio. Duis luctus sagittis nulla non rhoncus. Vestibulum vehicula arcu eget rutrum ullamcorper. Sed semper diam vel tortor tempor suscipit. Nullam nec tellus porta, interdum arcu et, sagittis diam. Etiam auctor, nulla a consequat vehicula, libero enim ornare est, ut scelerisque dolor dui id mauris. Morbi congue suscipit neque, tristique mollis metus accumsan sit amet. Mauris sem dolor, lobortis ut mi sit amet, mollis consequat nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget ante massa. Quisque lacinia est convallis, dignissim justo ut, bibendum ipsum. Vivamus a nulla rhoncus, rutrum ante quis, vulputate arcu. Pellentesque ligula tellus, commodo vitae tempus ut, iaculis ut tortor. Proin sapien tortor, scelerisque id elit mattis, lobortis auctor est. "/>
+    <property name="p4" value="Vivamus ut malesuada leo, eu pulvinar ante. Aliquam sit amet arcu ut orci posuere congue id vel mauris. Suspendisse luctus nec ante in facilisis. Nulla nunc lectus, dignissim tincidunt dignissim ac, sollicitudin ac lorem. Donec vel diam laoreet, aliquet ipsum nec, ultricies erat. Sed felis nisl, posuere vitae vestibulum in, tempor in felis. Cras rhoncus vehicula convallis. Vivamus accumsan eu nisi et congue. "/>
+    <property name="p5" value="Fusce adipiscing porttitor lorem, eu tincidunt erat luctus eu. Nam et leo porta, laoreet risus ut, pellentesque justo. Proin aliquam massa ac urna sodales, hendrerit blandit sapien congue. Cras vel magna tellus. Cras malesuada blandit tincidunt. Ut in magna vel urna dignissim elementum at in nisi. Curabitur sed felis ac velit luctus accumsan lacinia gravida ligula. Duis porta adipiscing ante ac fermentum. Praesent dictum nibh vitae nunc lobortis volutpat. Pellentesque vehicula mattis arcu, in faucibus arcu feugiat et. Ut hendrerit semper augue eu condimentum. Ut in imperdiet nulla, eget Cthulhu euismod tellus. "/>
+    <property name="p6" value="Vivamus pretium ante a vulputate eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla vel mauris eu turpis elementum elementum non eget neque. In eu tortor eu ipsum faucibus iaculis a vitae massa. Mauris rhoncus auctor nunc. Duis purus leo, tincidunt vitae suscipit in, vehicula sed ligula. Mauris eu sollicitudin est. Nunc congue lobortis tellus. "/>
+   </properties>
+  </object>
+  <object name="book 2" type="sign" x="283" y="386" width="27" height="35"/>
+  <object name="book 3" type="sign" x="381" y="334" width="25" height="23"/>
+  <object name="bed" type="save" x="224" y="288" width="128" height="64">
+   <properties>
+    <property name="header" value="No sleep! &gt;:("/>
+   </properties>
+  </object>
+  <object name="book cubby" type="chest" x="608" y="224" width="32" height="32"/>
+  <object name="book shelf" type="chest" x="224" y="416" width="32" height="64"/>
+  <object name="ORANGE" type="sound" x="2720" y="1536" width="160" height="160">
+   <properties>
+    <property name="soundFile" value="66517__freemaster2__meow8.wav"/>
+   </properties>
+  </object>
+  <object name="Professor Wilken's Journal" type="sign" x="2817" y="1229" width="15" height="15">
+   <properties>
+    <property name="header" value="Dear Journal,"/>
+    <property name="p1" value="First off, this is getting way too personal; I remember a time when I would just write the date to the day and get started ahead of time everyday. But now I refer to you, my beloved book, like I would a lover. I feel this isn't the most productive behavior for scientific inquiry, but it seems polite."/>
+    <property name="p2" value="Speaking of scientific inquiry, I'm sure you would like to know why all the lab equiptment has been removed from the lab and replaced with a giant orange and a giant syringe."/>
+    <property name="p3" value="So would I."/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="items" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztzjESgCAQBEE+ASr8/5+kGlEEeldld7TBBlMKAAD817jtc/E93gwB2NSjAyCZKzqAhxodAMm06AAAAAAAAAAAAICPjfUFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSm+BuAMQ=
+  </data>
+ </layer>
+ <layer name="tops" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3DFqw0AQQFF1jt3k/rdNbROCYtnab+Y9GFAp9sOoWXTdtu36ouE459iiR8u7euj8HD1a9GhZ2eP2MKzvwT37qkWPFj1a9Ghxbi3FHt+rX2Ch6r6a2qTaYyo9WvRo0WMGPVr0aNHjuP/cIXHfBACAv1zeNDzH2bXo0aJHix4tZ/TQfD89WvRo0aNFjxY9WvRo0WMePVr02G/Cvvp6mLIpPX57LtJjnkKPT9hVZ1ndg3t67Dfh+/FJ9GjRo0WPFj1a9GjRo0WPFj1a9GjRo0WPFj1a9GjRo0WPFj1a9JhHjxY9WvQ4xv8aAAAAAAAAAAAAAADO8wO+VAZI
+  </data>
+ </layer>
+ <layer name="floor 2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2CEOADAIBEEU/39yTUVV9UFmEl6wOUMVAAAAAAAwRd8jw9tDlyx6AAAAzOYHkkUP+LMRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAnQ771gBJ
+  </data>
+ </layer>
+ <objectgroup color="#b8b800" name="surfaces" width="100" height="100">
+  <object x="0" y="0" width="608" height="32"/>
+  <object x="0" y="32" width="32" height="576"/>
+  <object x="96" y="704" width="288" height="32"/>
+  <object x="448" y="704" width="288" height="32"/>
+  <object x="704" y="448" width="32" height="256"/>
+  <object x="704" y="96" width="32" height="288"/>
+  <object x="480" y="832" width="64" height="64"/>
+  <object x="512" y="928" width="64" height="32"/>
+  <object x="832" y="480" width="64" height="64"/>
+  <object x="928" y="512" width="32" height="64"/>
+  <object x="192" y="256" width="128" height="64"/>
+  <object x="96" y="288" width="32" height="64"/>
+  <object x="544" y="160" width="32" height="32"/>
+  <object x="832" y="1408" width="32" height="128"/>
+  <object x="736" y="1408" width="96" height="32"/>
+  <object x="736" y="1440" width="32" height="96"/>
+  <object x="768" y="1504" width="64" height="32"/>
+  <object x="992" y="192" width="128" height="32"/>
+  <object x="992" y="224" width="32" height="32"/>
+  <object x="1216" y="352" width="32" height="96"/>
+  <object x="224" y="224" width="576" height="576"/>
+  <object x="2368" y="1152" width="640" height="544"/>
+  <object x="2752" y="1696" width="256" height="64"/>
+  <object x="2368" y="1760" width="640" height="576"/>
+  <object x="2112" y="896" width="32" height="416"/>
+  <object x="2112" y="1376" width="32" height="96"/>
+  <object x="2112" y="1568" width="32" height="576"/>
+  <object x="2272" y="2240" width="672" height="32"/>
+  <object x="2912" y="1056" width="32" height="1184"/>
+  <object x="2144" y="896" width="672" height="32"/>
+ </objectgroup>
+</map>
